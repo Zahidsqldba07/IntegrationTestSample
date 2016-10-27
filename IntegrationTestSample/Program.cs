@@ -35,7 +35,7 @@ namespace IntegrationTestSample
     public class Colors
     {
         private string connectionString = @"Data Source = localhost;Initial Catalog = IntegrationTestDB; Integrated Security = true; Connection Timeout = 10;";
-
+        
         public IEnumerable<string> GetAll()
         {
             ICollection<string> colors = new List<string>();
